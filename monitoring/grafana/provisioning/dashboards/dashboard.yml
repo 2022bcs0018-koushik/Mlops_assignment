@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: "churn-risk-dashboards"
+    orgId: 1
+    folder: "Task1"
+    type: file
+    disableDeletion: true
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
