@@ -13,11 +13,11 @@ configure_logging()
 logger = logging.getLogger("churn_service")
 
 app = FastAPI(
-    title="Rule-Based Churn Risk Service",
-    version="1.0.0",
+    title="ML-Based Churn Risk Service",
+    version="2.0.0",
     description=(
-        "Task 1 microservice that computes churn risk using deterministic business "
-        "rules. No machine learning is used."
+        "Task 2 microservice that predicts churn risk using a trained machine "
+        "learning model with ticket-derived features."
     ),
 )
 app.include_router(api_router)

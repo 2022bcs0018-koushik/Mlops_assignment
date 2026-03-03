@@ -1,0 +1,12 @@
+{
+  "model_path": "artifacts\\churn_model.joblib",
+  "metrics": {
+    "f1": 0.9933598937583001,
+    "roc_auc": 0.9999844997287453,
+    "pr_auc": 0.9999575202041395
+  },
+  "seed": 42,
+  "data_path": "C:\\Users\\vvkou\\Downloads\\WA_Fn-UseC_-Telco-Customer-Churn.csv",
+  "dataset_rows": 7043,
+  "positive_class_rate": 0.2653698707936959
+}
