@@ -11,6 +11,9 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
+COPY artifacts ./artifacts
+
+ENV MODEL_PATH=/app/artifacts/churn_model.joblib
 
 USER appuser
 EXPOSE 8000
